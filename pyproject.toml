@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "nrdp_sppy"
+version = "0.2.12"
+description = "Utility class for easier SharePoint interactions"
+authors = ["Max Blasdel <max.x.blasdel@kp.org>"]
+license = ""
+readme = "README.md"
+repository = "https://github.kp.org/AKME/nrdp_sppy"
+packages = [{include = "nrdp_sppy"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+office365-rest-python-client = ">=2.5.12"
+polars = ">=1.0"
+requests = ">=2.32.3"
+xlsx2csv = ">=0.8.2"
+pip-system-certs = ">=4.0"
+fastexcel = ">=0.12.0"
+poetry-core = ">=2.0.1,<3.0.0"
+
+[build-system]
+requires = ["poetry-core==1.8.1"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.2.0"
+requests-mock = "^1.12.1"
