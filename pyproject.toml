@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nrdp_sppy"
-version = "0.2.14"
+version = "0.2.12"
 description = "Utility class for easier SharePoint interactions"
 authors = ["Max Blasdel <max.x.blasdel@kp.org>"]
 license = ""
